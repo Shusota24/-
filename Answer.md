@@ -4,7 +4,7 @@ if文が1つで済むので、よく内部ロジックで利用されている�
 
 ```Java
     public static void leapYear(int year) {
-        if(year % 4 == 0 && year % 100 != 0) {
+        if(year % 4 == 0 || year % 100 != 0 && year % 400 == 0) {
             System.out.println("閏年です。");
             return;
         }
