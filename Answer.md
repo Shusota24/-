@@ -31,3 +31,33 @@ if文が1つで済むので、よく内部ロジックで利用されている�
 ```
 
 ## 問３
+
+途中でreturnしない方が賢明。
+
+```Java
+    public static void misezan(int x, int y) {
+        int gan;
+
+        if(x == y) {
+            gan = 1;
+        } else {
+            gan = (x > y) ? x : y;
+        }
+
+        if(x==6 && y==9 || x==9 && y==6) {
+            gan = 11;
+        }
+
+        String xstring = String.valueOf(x);
+        String ystring = String.valueOf(y);
+
+        if(xstring.startsWith("2") && ystring.contains("5") || 
+            xstring.contains("5") && ystring.startsWith("2")) {
+            
+            gan = 111;
+        }
+        
+        System.out.println("眼は" + gan + "です。");
+        return;
+    }
+```
