@@ -1,0 +1,19 @@
+## 問１
+１から１０００までの数字の内、７の倍数を出力するには以下のプログラムで満たす事ができる。
+``` Java
+        List<Integer> list = new ArrayList<Integer>();
+
+        for(int j=1;j<=100;j++) {
+            if (j % 7 == 0) {
+                list.add(j);
+            }
+        }
+
+        System.out.println(list);
+```
+以下の部分を書き換えて、同様の出力結果が出るように記述せよ。
+
+ただし、余りを出力する「％」は使用不可とする。
+
+
+
