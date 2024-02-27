@@ -22,7 +22,7 @@ if文が1つで済むので、よく内部ロジックで利用されている�
     List<Integer> list = new ArrayList<Integer>();
 
     for(int j=1;j<=1000;j++) {
-        if (j/7 == (j-1)/7) {
+        if (j/7 != (j-1)/7) {
             list.add(j);
         }
     }
