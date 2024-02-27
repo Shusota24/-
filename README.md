@@ -18,9 +18,9 @@
 ## 練習問題
 No.1、No.3はガチ予想です。
 
-- [練習問題No.1](https://github.com/Shusota24/Programming-Excercise/blob/main/Toi−001.md)
-- [練習問題No.2](https://github.com/Shusota24/Programming-Excercise/blob/main/Toi−002.md)
-- [練習問題No.3](https://github.com/Shusota24/Programming-Excercise/blob/main/Toi−003.md)
+- [練習問題No.1](https://github.com/Shusota24/Programming-Excercise/blob/main/Toi-001.md)
+- [練習問題No.2](https://github.com/Shusota24/Programming-Excercise/blob/main/Toi-002.md)
+- [練習問題No.3](https://github.com/Shusota24/Programming-Excercise/blob/main/Toi-003.md)
 - [回答](https://github.com/Shusota24/Programming-Excercise/blob/main/Answer.md)
   
 # 基本問題
